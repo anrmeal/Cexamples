@@ -1,8 +1,14 @@
+/*Made by Anthony
+This program creates a function called adder which takes two inputs (int num1, int num2)
+num1 and num2 are local to the function.
+
+
+*/
 #include <stdio.h>
 
-int sum = 0;
 
-int adding(int num1, int num2) 
+int sum = 0;
+int adder(int num1, int num2) 
 {
     sum = num1 + num2;
     return (sum);
@@ -24,7 +30,7 @@ int main() {
   scanf("%d", &myNum2);
 
   // Print the sum of inputs
-  printf("The sum is: %d \n", adding(myNum1, myNum2));
+  printf("The sum is: %d \n", adder(myNum1, myNum2));
 
   return 0;
 }
