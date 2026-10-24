@@ -1,8 +1,6 @@
 /*Made by Anthony
 This program creates a function called adder which takes two inputs (int num1, int num2)
 num1 and num2 are local to the function.
-
-
 */
 #include <stdio.h>
 
